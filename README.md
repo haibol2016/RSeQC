@@ -1,4 +1,5 @@
 # RSeQC
+**This is an improved version of RSeQC, downloaded from [PyPI](https://pypi.org/project/RSeQC/). I added MPIRE-based parallel computing to tin.py, update the documentation and add Docker support.**
 
 RSeQC provides quality control tools for RNA-seq data.
 
