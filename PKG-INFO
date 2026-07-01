@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: RSeQC
+Version: 5.0.4
+Summary: QC package for RNA-seq data.
+Author-email: Liguo Wang <wangliguo78@gmail.com>, Shengqin Wang <wzsqwang@gmail.com>, Wei Li <superliwei@gmail.com>
+Maintainer-email: Liguo Wang <wangliguo78@gmail.com>
+License: {{ RSeQC }}
+        Copyright (C) {{ 2024 }}  {{ Mayo Clinic }}
+        
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <http://www.gnu.org/licenses/>.
+        
+Project-URL: Documentation, http://rseqc.sourceforge.net/
+Keywords: RNA-seq,QC
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pysam
+Requires-Dist: bx-python
+Requires-Dist: numpy
+Requires-Dist: pyBigWig
+Requires-Dist: logomaker
+
+# Install RSeQC using [pip](https://pip.pypa.io/en/stable/)
+
+### Check if [pip](https://pip.pypa.io/en/stable/) is available
+
+`pip` is a package manager that allows users to install and manage Python packages. It comes with Python 3.4 and later versions.
+ 
+ `pip --version`
+ 
+ `pip 24.2 from /XXX/YYY/lib/python3.11/site-packages/pip (python 3.11)`
+
+ If you see any errors, following this [instructions](https://pypi.org/project/pip/) to install `pip`.
+
+### (Optional) Create Virtual Environments (Note: `venv` is available in Python 3.3 and later. You can also use [virtualenv](https://packaging.python.org/en/latest/key_projects/#virtualenv))
+
+ `$ python3 -m venv my_env` (will create a directory called my_env)
+
+ `$ source my_env/bin/activate`
+
+### Install
+
+ `$ pip install rseqc`
+
+### Upgrade
+
+ `$ pip install rseqc --upgrade`
+
+### Uninstall
+
+ `pip -y uninstall rseqc`
+
+# Documentation
+
+http://rseqc.sourceforge.net/
